@@ -4,8 +4,8 @@ lib for rotary encoder - https://github.com/miketeachman/micropython-rotary
 
 install lib to MCU - 
 
-PC\yourPC>ampy -p COM2 put link_to_localFile\rotary.py
-PC\yourPC>ampy -p COM2 put link_to_localFile\rotary_irq_rp2.py
+- PC\yourPC>ampy -p COM2 put link_to_localFile\rotary.py
+- PC\yourPC>ampy -p COM2 put link_to_localFile\rotary_irq_rp2.py
 
 Need to install ampy and Python 3.6 on PC. More info about library copy to rpi pico - https://github.com/scientifichackers/ampy
 
