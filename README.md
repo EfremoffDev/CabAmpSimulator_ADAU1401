@@ -23,3 +23,8 @@ v.0.2 (not released yet, new features only).
 - Sprint Layout 6.0 PCB (PCB folder)
 - MicroPython Script with nessesary functions and code for comunication between user actions and DSP for raspberry pi pico, with specified additional libs. (see readme in Python folder)
 - SigmaStudio 4.6 project with demo, based on bass amplifier (SVT4PRO style) and FIR-Table based on own bass cabinet. (Project folder)
+-
+## ESP32 Public Project
+
+- For some purpose ESP32 will be more flexible and more reiteratable for this project. For this purpose created a open project on EasyEDA/OSHWLab:
+- https://oshwlab.com/Aiefremov/adau_main_board_gainta_bs13
