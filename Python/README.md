@@ -1,3 +1,5 @@
+NOT COMPLITED BECAUSE SWITCHED TO ESP32 Microcotroller, which work much faster on C. Look to ARDUINO folder. 
+
 Used a basic microPython firmware for raspberry pi pico - https://www.raspberrypi.org/documentation/rp2040/getting-started/#getting-started-with-micropython
 
 lib for rotary encoder - https://github.com/miketeachman/micropython-rotary
