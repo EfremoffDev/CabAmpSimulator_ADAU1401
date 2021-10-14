@@ -1,6 +1,6 @@
 # CabAmpSimulator_ADAU1401
 
-This project is a base and guitar amplifier simulator + IR based cabinet simulator. Uses ADAU1401 Digital Signal Processor and ARM-microcontroller (ex. Raspberry Pi Pico). 
+This project is a base and guitar amplifier simulator + IR based cabinet simulator. Uses ADAU1401 Digital Signal Processor and ARM-microcontroller (ex. Raspberry Pi Pico or ESP32 (prefered)). 
 
 ## Functionality:
 
@@ -20,8 +20,10 @@ v.0.2 (not released yet, new features only).
 
 ## Project contain:
 
-- Sprint Layout 6.0 PCB (PCB folder)
+- Sprint Layout 6.0 PCB (PCB folder) for Raspberry Pi Pico project.
 - MicroPython Script with nessesary functions and code for comunication between user actions and DSP for raspberry pi pico, with specified additional libs. (see readme in Python folder)
+- **ESP32 project with Arduino IDE - Arduino Folder
+- **Gerber files for PCB production for ESP32 project - (PCB -> ESP32 folder).
 - SigmaStudio 4.6 project with demo, based on bass amplifier (SVT4PRO style) and FIR-Table based on own bass cabinet. (Project folder)
 -
 ## ESP32 Public Project
