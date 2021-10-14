@@ -4,7 +4,7 @@ This project is a base and guitar amplifier simulator + IR based cabinet simulat
 
 ## Functionality:
 
-v.0.1 (actual)
+v.1.0.1 (old) - Only Raspberry Pi Pico on micropython
 - Output amplifier emulator (bass 6L6 'overdrived' SVT style). 
 - IR-Based cabinet simulator.
 - Two push/rotary encoders for Volume and on/off control
@@ -12,11 +12,13 @@ v.0.1 (actual)
 - Unbalanced input
 - Standard 9V power supply. 
 
-v.0.2 (not released yet, new features only).
+**v.1.0.2 (actual). - ONLY ESP32 Arduino IDE project.
 - Load third-party IR (.wav files) via microSD card. 
 - i2c OLED screen (1.3 inch) for UI (select and load IR from list of files on sd-card, visual presentation of volumes, loaded IR, selected amplifier emulator
-- additional 4 types of output amplifier (one for bass, three for guitar) - EL34(more clean then 6L6), 6L6 guitar, 6V6 Clean, EL84 Crunched.
-- Additional toggle switch for enable/disable 'overdrived' function. 
+- additional 8 types of output amplifier (4 for bass, 4 for guitar)
+- Additional encoder with toggle switch for enable/disable 'output saturation' function. 
+- Mute function
+- Setup of EQ for selected amplifier.
 
 ## Project contain:
 
