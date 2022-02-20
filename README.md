@@ -22,13 +22,13 @@ __v.1.0.2 (actual). - ONLY ESP32 Arduino IDE project.__
 
 ## Project contain:
 
-- Sprint Layout 6.0 PCB (PCB folder) for Raspberry Pi Pico project.
+- Sprint Layout 6.0 PCB (PCB folder) for Raspberry Pi Pico project. 
 - MicroPython Script with nessesary functions and code for comunication between user actions and DSP for raspberry pi pico, with specified additional libs. (see readme in Python folder)
 - __ESP32 project with Arduino IDE - Arduino Folder__
-- __Gerber files for PCB production for ESP32 project - (PCB -> ESP32 folder).__
+- __Gerber files for PCB production for ESP32 project - (PCB -> ESP32 folder).__ 
 - SigmaStudio 4.6 project with demo, based on bass amplifier (SVT4PRO style) and FIR-Table based on own bass cabinet. (Project folder)
--
+
 ## ESP32 Public Project
 
 - For some purpose ESP32 will be more flexible and more reiteratable for this project. For this purpose created a open project on EasyEDA/OSHWLab:
-- https://oshwlab.com/Aiefremov/adau_main_board_gainta_bs13
+- https://oshwlab.com/Aiefremov/adau1401_cabsim_project
