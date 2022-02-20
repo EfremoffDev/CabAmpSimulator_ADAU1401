@@ -13,9 +13,9 @@ v.1.0.1 (old) - Only Raspberry Pi Pico on micropython
 - Standard 9V power supply. 
 
 __v.1.0.2 (actual). - ONLY ESP32 Arduino IDE project.__
-- Load third-party IR (.wav files) via microSD card. 
+- NOT FULLY IMPLEMENTED - Load third-party IR (.wav files) via microSD card. 
 - i2c OLED screen (1.3 inch) for UI (select and load IR from list of files on sd-card, visual presentation of volumes, loaded IR, selected amplifier emulator
-- additional 8 types of output amplifier (4 for bass, 4 for guitar)
+- ONE AMPLIFIER TYPE
 - Additional encoder with toggle switch for enable/disable 'output saturation' function. 
 - Mute function
 - Setup of EQ for selected amplifier.
